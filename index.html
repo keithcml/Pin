@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>PIN Input Demo</title>
+        <meta charset="UTF-8" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body style="background-color: #eee;">
+        <div class="div-pin">
+            <!-- use the following setup to enable digital keyboard without *# chars -->
+            <!-- data-content is the custom attributes for saving PIN value -->
+            <input type="text" pattern="[0-9]*" inputmode="numeric" maxlength=1 id="1" class="input-pin" data-content="" autocomplete=off ></input>
+            <input type="text" pattern="[0-9]*" inputmode="numeric" maxlength=1 id="2" class="input-pin" data-content="" autocomplete=off ></input>
+            <input type="text" pattern="[0-9]*" inputmode="numeric" maxlength=1 id="3" class="input-pin" data-content="" autocomplete=off ></input>
+            <input type="text" pattern="[0-9]*" inputmode="numeric" maxlength=1 id="4" class="input-pin" data-content="" autocomplete=off ></input>
+            <input type="text" pattern="[0-9]*" inputmode="numeric" maxlength=1 id="5" class="input-pin" data-content="" autocomplete=off ></input>
+            <input type="text" pattern="[0-9]*" inputmode="numeric" maxlength=1 id="6" class="input-pin" data-content="" autocomplete=off ></input>
+        </div>
+        <script src="pin.js"></script>
+    </body>
+</html>
+

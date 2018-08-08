@@ -1,0 +1,32 @@
+/* just using flexbox CSS layout here */
+.div-pin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+/* pin box CSS, no need -webkit-text-security */
+.input-pin {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    -webkit-appearance: none;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+    font-size: 24px;
+    text-align: center;
+    
+    -webkit-touch-callout: none;
+    user-select: none;
+}
+
+/* .input-pin:focus {
+    border-bottom: 1px solid red;
+} */
+
+/* -webkit-user-select: none; */
